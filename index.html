@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Include Health Program</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body class="bg-info container-fluid style=" bg-success p-2 style="--bs-bg-opacity: .3;">
+    <!-- inicio cabecera de la pagina -->
+    <header class="bg-primary bg-gradient fixed-top">
+        <section class="d-flex justify-content-evenly" >
+
+            <!-- inicio logo y navegador -->
+            <img src="./assets/inhe.png" alt="logo" height="80"/>
+
+            <!-- navegador con lista desordenada -->
+            
+            <nav class="navbar navbar-expand-md bg-primary fw-bold pb-5 ">
+                <div class="container">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <!-- deshabilitado -->
+                                <a class="nav-link disabled" aria-current="page" href="./pages/prestaciones.html">Prestaciones</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <!-- deshabilitado -->
+                                <a class="nav-link dropdown-toggle disabled" href="./pages/institucional.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Institucional
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="./pages/autoridades.html">Autoridades</a></li>
+                                    <li><a class="dropdown-item" href="./pages/quienes_somos.html">Quienes Somos</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                            </li>                      
+                        </ul>
+                    </div>
+                </div>
+              </nav>
+             
+            <!-- fin logo y navegador -->
+        </section>
+    </header>
+    <!-- fin de la cabecera e inicio del cuerpo principal de la pagina -->
+    <main >
+        <section class="portada container-fluid ">
+            <h1 class="display-1 ">Incluir es... <br> dar la bienvenida.</h1>            
+        </section>
+        
+        <section class="container mt-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8 col-lg-6 my-auto">
+                    <img src="./assets/images1.jpg" alt="imagen1" width="100%" />
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <article>
+                        <h2 class="h4">El Programa Include Healh es un programa que promueve el fortalecimiento de la atención sanitaria de los ciudadanos en el servicio público de salud.</h2>
+                        
+                        <p>
+                            Include Healh está dirigido a titulares de Pensiones No Contributivas (PNC), que no cuenten con asistencia de servicios de salud tales como obras sociales, y que voluntariamente se conviertan en afiliados al programa.
+                        </p>
+                        
+                        <p>
+                            En este sentido, el fortalecimiento antes mencionado, no se concretará mediante la transmisión directa de recursos económicos, sino más bien a través de la entrega directa a los beneficiarios (cumpliendo los circuitos para ello dispuestos) de medicamentos de alto y bajo costo, pañales, insumos (prótesis, ortesis) y servicios como radioterapias, internaciones domiciliarias, soporte nutricional y oxigenoterapia domiciliaria, entre otros.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- inicio seccion de imagenes con accesos a prestaciones -->        
+        <h2 class="text-danger text-center shadow-lg p-3 mb-5 bg-body rounded">PRESTACIONES</h2>
+       <!-- <div class="d-flex flex-row mb-3 justify-content-evenly""> -->
+        <div class="container">
+            <!-- <div class="p-2 bg-light rounded text-center"> -->
+            <div class="row">
+                <!-- <a class="text-decoration-none fs-4 text-secondary fw-bolder d-grid gap-2" -->
+                <article class="acceso1 p-2 col-lg-4 col-md-6 text-center">
+                    <a class="text-decoration-none fs-4 text-secondary fw-bolder " href="./pages/prestaciones.html">
+                        <div>
+                            <img class="rounded img-fluid" src="./assets/discapacidad.jpg" alt="discapacidad" width="364px" height="240px"  />
+                        </div>
+                        <div class="d-grid  mt-2">
+                            <button class="btn btn-success" type="button">Discapacidad y Salud Mental</button>
+                        </div>
+                        
+                    </a>
+                </article>                
+                <article class="acceso2 p-2 col-lg-4 col-md-6 text-center">
+                    <a class="text-decoration-none fs-4 text-secondary fw-bolder col-lg-4 gap-2" href="./pages/prestaciones.html">
+                        <div>
+                            <img class="rounded img-fluid" src="./assets/protesis.jpg" alt="protesis" width="364px" height="240px"/>
+                        </div>
+                        <div class="d-grid mt-2">
+                            <button class="btn btn-success" type="button">Prótesis</button>
+                        </div>
+                    </a>
+                </article>
+                <article class="acceso3 p-2 col-lg-4 col-md-6 text-center">
+                    <a class="text-decoration-none fs-4 text-secondary fw-bolder col-lg-4 gap-2" href="./pages/prestaciones.html">
+                        <div>
+                            <img class="rounded img-fluid" src="./assets/pmo.jpg" alt="pmo" width="364px" height="240px"/>
+                        </div>
+                        <div class="d-grid mt-2">
+                            <button class="btn btn-success" type="button">Programa Médico Obligatorio</button>
+                        </div>
+                    </a>
+                </article>
+            </div>
+       </div>        
+       
+
+        <!-- sección de Estadisticas con tabla de Afiliados -->
+        <section class="py-4 ">
+            <h2 class="text-danger text-center shadow-lg p-3 mb-2 bg-body rounded">ESTADISTICAS</h2>
+            <h3 class="text-danger text-center shadow-lg p-3 mb-5 bg-body rounded">AFILIADOS</h3>
+            <div class="d-flex justify-content-center">
+                <table class="tabla table-bordered border-primary fs-4 text-center">
+                    <thead>
+                        <tr>
+                            <th>PROVINCIA</th>
+                            <th>TITULARES</th>
+                            <th>FAMILIARES</th>
+                            <th>TOTAL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Buenos Aires</td>
+                            <td>25.000</td>
+                            <td>36.000</td>
+                            <td>61.000</td>
+                        </tr>
+                        <tr>
+                            <td>Córdoba</td>
+                            <td>12.000</td>
+                            <td>18.000</td>
+                            <td>30.000</td>
+                        </tr>
+                        <tr>
+                            <td>Mendoza</td>
+                            <td>8.000</td>
+                            <td>13.000</td>
+                            <td>21.000</td>
+                        </tr>
+                        <tr>
+                            <td>Santa Fe</td>
+                            <td>10.000</td>
+                            <td>20.000</td>
+                            <td>30.000</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Totales</td>
+                            <td>55.000</td>
+                            <td>87.000</td>
+                            <td>142.000</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            
+        </section>
+    </main>
+    <!-- inicio de pie de pagina --> 
+	<footer class="bg-dark d-flex flex-row justify-content-around container">
+        <!-- accesos con referencias relativas -->
+        <section class="row text-center">
+            <div class="col-sm-4">
+                <a  href="./index.html">
+                    <img src="./assets/inhe.png" alt="logo" width="150"/>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a class="text-decoration-none text-light" href="./pages/institucional.html">
+                    <h4>INSTITUCIONAL</h4>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a class="text-decoration-none text-light" href="./pages/contacto.html">
+                    <h4>CONTACTO</h4>
+                </a>
+            </div>      
+
+        </section>       
+        
+    </footer>
+</body>
+</html>
